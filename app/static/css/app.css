@@ -1,3 +1,47 @@
 body {
     padding-top: 5rem;
 }
+
+img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+body{
+    text-align: center;
+}
+
+.main{
+    background-color: lightgoldenrodyellow;
+}
+
+.aboutme {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button{
+    background-color: yellow;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    
+}

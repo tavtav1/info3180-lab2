@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<html>
+    {% block main %}
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <div class = "main">
+            <img src = "{{url_for('static', filename='blckwomanv.png')}}">
+            <h1> Tavian Hall</h1>
+            <h3>@thall <br> Kingston, Jamaica <br> {{ format_date_joined }}</h3>
+        </div>
+        <p class = "aboutme"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+        <table>
+            <tr>
+                <th>7</th>
+                <th>100</th>
+                <th>250</th>
+            </tr>
+            <tr>
+                <td>Posts</td>
+                <td>Following</td>
+                <td>Followers</td>  
+            </tr>
+        </table>
+        <button>Follow</button>
+    
+    </body>
+    {% endblock %}
+</html>
